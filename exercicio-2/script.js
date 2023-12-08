@@ -5,9 +5,9 @@
 // na primeira variável, y o valor armazenado segunda variável e z o
 // valor armazenado na terceira variável
 
-let valorX= 5;
-let valorY= 9;
-let valorZ= valorX+valorY;
+let valorX = 5;
+let valorY = 9;
+let valorZ = valorX + valorY;
 
 console.log(`O resultado da soma de ${valorX} e ${valorY} é ${valorZ}`);
 document.write(`O resultado da soma de ${valorX} e ${valorY} é ${valorZ}`);

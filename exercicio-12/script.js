@@ -5,13 +5,13 @@
 
 let anoAtual = Number(prompt('Digite o ano atual'));
 let anoNascimento = Number(prompt('Digite o ano de nascimento'));
-let calculoAno = anoAtual-anoNascimento;
+let calculoAno = anoAtual - anoNascimento;
 
 console.log(calculoAno);
-if(calculoAno>=18){
+if (calculoAno >= 18) {
     console.log('Você podera votar!');
     document.write('Você podera votar!');
-}else{
+} else {
     console.log('Você não pode votar!!');
     document.write('Você não pode votar!!');
 }

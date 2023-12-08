@@ -4,11 +4,11 @@
 // b. “Número é impar!”, se o valor armazenado for ímpar;
 
 let numeroInteiroPositivo = Number(prompt('Digite um numero inteiro positivo'));
-let numeroResultado = numeroInteiroPositivo%2;
-if(numeroResultado == 0){
+let numeroResultado = numeroInteiroPositivo % 2;
+if (numeroResultado == 0) {
     console.log('Numero é par!');
     document.write('Numero é par!');
-}else{
+} else {
     console.log('Numero é impar!');
     document.write('Numero é impar!');
 }

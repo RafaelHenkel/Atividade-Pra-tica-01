@@ -3,7 +3,6 @@
 // variável junto da frase "Minha idade é x anos", sendo "x" o valor
 // armazenado na sua variável.
 
-
 let idade = 20;
 
 document.write(`Minha idade é ${idade}`);

@@ -5,7 +5,7 @@
 // informação: "_ minutos equivale à _ segundos!"
 
 let minutos = 120;
-let segundos = minutos*60;
+let segundos = minutos * 60;
 
 console.log(`${minutos} minutos equivale à ${segundos} segundos`);
 document.write(`${minutos} minutos equivale à ${segundos} segundos`);

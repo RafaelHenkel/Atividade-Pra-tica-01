@@ -6,7 +6,7 @@
 
 let nomeUsuario = prompt('Digite o nome do usuario');
 let idadeUsuario = Number(prompt('Digite a idade do usuario'));
-let anoNascimento = 2023-idadeUsuario;
+let anoNascimento = 2023 - idadeUsuario;
 
 console.log(`Nome: ${nomeUsuario}, idade: ${idadeUsuario} anos, nascido em ${anoNascimento}`);
 document.write(`Nome: ${nomeUsuario}, idade: ${idadeUsuario} anos, nascido em ${anoNascimento}`);
