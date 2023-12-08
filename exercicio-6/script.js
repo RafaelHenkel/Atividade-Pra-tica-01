@@ -3,3 +3,18 @@
 // atribuições entre variáveis) troque os seus conteúdos fazendo com
 // que o valor que está em A passe para B e vice-versa. Ao final,
 // escrever os valores que ficaram armazenados nas variáveis.
+
+let variavelA = 10;
+let variavelB = 20;
+let temporaria = variavelA;
+
+console.log(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
+document.write(`Variavel A ${variavelA}, Variavel B ${variavelB} <br>`);
+
+
+variavelA = variavelB;
+variavelB = temporaria;
+
+console.log(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
+document.write(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
+
