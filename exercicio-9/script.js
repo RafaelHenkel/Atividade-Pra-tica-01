@@ -3,16 +3,18 @@
 // doze. Desenvolva um algoritmo que leia o número de maçãs
 // compradas, calcule e escreva o valor total da compra.
 
-let menosDeUmaDuzia = 0.30;
+let menosDeUmaDuzia = 0.3;
 let maisDeUmaDuzia = 0.25;
-let quantidadeDeMaca = Number(prompt('digite a quantidade de maças compradas:'));
+let quantidadeDeMaca = Number(
+  prompt("digite a quantidade de maças compradas:")
+);
 
 if (quantidadeDeMaca >= 12) {
-    let valorTotal = maisDeUmaDuzia * quantidadeDeMaca;
-    console.log(`Valor total da compra ${valorTotal.toFixed(2)}`);
-    document.write(`Valor total da compra ${valorTotal.toFixed(2)}`);
+  let valorTotal = maisDeUmaDuzia * quantidadeDeMaca;
+  console.log(`Valor total da compra ${valorTotal.toFixed(2)}`);
+  document.write(`Valor total da compra ${valorTotal.toFixed(2)}`);
 } else {
-    let valorTotal = menosDeUmaDuzia * quantidadeDeMaca;
-    console.log(`Valor total da compra ${valorTotal.toFixed(2)}`);
-    document.write(`Valor total da compra ${valorTotal.toFixed(2)}`);
+  let valorTotal = menosDeUmaDuzia * quantidadeDeMaca;
+  console.log(`Valor total da compra ${valorTotal.toFixed(2)}`);
+  document.write(`Valor total da compra ${valorTotal.toFixed(2)}`);
 }

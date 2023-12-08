@@ -11,10 +11,8 @@ let temporaria = variavelA;
 console.log(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
 document.write(`Variavel A ${variavelA}, Variavel B ${variavelB} <br>`);
 
-
 variavelA = variavelB;
 variavelB = temporaria;
 
 console.log(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
 document.write(`Variavel A ${variavelA}, Variavel B ${variavelB}`);
-
